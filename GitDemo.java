@@ -1,9 +1,10 @@
 /*****
- * Edit this line to have your name.
+Liyah Coleman
  ******/
 public class GitDemo {
     
     private double previousNumber;
+    private double reverseNum;
     
     public GitDemo() {
         previousNumber = 1;
@@ -14,6 +15,7 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
+        previousNumber = previousNumber + num;
         return 0;
     }
     
@@ -23,6 +25,7 @@ public class GitDemo {
      *  the function will return the value of (1 * 2 * 3 * 4)
      *****/
     public double findFactorial(int num) {
+        second_branch
         double newNumber = 1;
         
         for(int i = 1; i <= num; ++i){
